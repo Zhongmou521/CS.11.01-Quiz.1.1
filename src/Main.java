@@ -27,8 +27,8 @@ public class Main {
             int age = scanner.nextInt();
 
             System.out.println("What is your fav food?");
-            Scanner sc = new Scanner(System.in);
-            favoriteFood = sc.nextLine();
+            scanner.nextLine();
+            favoriteFood = scanner.nextLine();
 
             String details = "Name: " + firstName + "\nAge: " + age + "\nFavorite food: " + favoriteFood;
 
